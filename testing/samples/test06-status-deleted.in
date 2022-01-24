@@ -1,0 +1,22 @@
+# check the status when we delete the file in the stage for addition.
+> init
+<<<
++ wug.txt notwug.txt
+> add wug.txt
+<<<
+- wug.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+wug.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+wug.txt (deleted)
+
+=== Untracked Files ===
+
+<<<
